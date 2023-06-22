@@ -24,15 +24,3 @@ export const NavigationLinks =[
     ref: '#contact'
   }
 ]
-
-// const NavigationLink = () => {
-//   {
-//     name: 'HOME',
-//     ref: '#HOME'
-//   }
-//   return (
-//     <div>NavigationLink</div>
-//   )
-// }
-
-// export default NavigationLink
