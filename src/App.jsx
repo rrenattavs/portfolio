@@ -12,6 +12,7 @@ function App() {
           <div className="app-nav">
             <NavigationBar />
             </div>
+            
             <Background />
           {/* <Particles 
             id="tsparticles"
