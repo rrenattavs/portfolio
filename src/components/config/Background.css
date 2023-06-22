@@ -34,9 +34,10 @@ h1:hover {
 /*glow for webkit*/
  @-webkit-keyframes neon1 {
   from {
-    text-shadow: 0 0 10px #fff
+    text-shadow: 0 0 10px #fff, 0}
+  }
 
-    @keyframes pulsate {
+@keyframes pulsate {
         100% {
           /* Larger blur radius */
           text-shadow:
