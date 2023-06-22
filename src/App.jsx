@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import './App.css'
-import Particles from 'react-tsparticles'
 import NavigationBar from './screens/navigationBar/NavigationBar.jsx';
 import Background from './components/config/Background.jsx';
 

@@ -1,5 +1,3 @@
-import React from 'react'
-// import './Background.css'
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
