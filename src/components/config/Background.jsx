@@ -1,27 +1,24 @@
 import { useCallback } from "react";
-import Particles from "react-particles";
+// import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-import './Background.css'
-
+import "./Background.css";
 
 const Background = () => {
-  const particlesInit = useCallback(async engine => {
-    await loadFull(engine);
-}, []);
+  //   const particlesInit = useCallback(async engine => {
+  //     await loadFull(engine);
+  // }, []);
 
-const particlesLoaded = useCallback(async container => {
-    await console.log(container);
-}, []);
-  
+  // const particlesLoaded = useCallback(async container => {
+  //     await console.log(container);
+  // }, []);
 
-  
   return (
     <div>
-      <div className="page-wrapper"> 
+      {/* <div className="page-wrapper"> 
             <h1>Hello World!</h1>
-     </div>
-    <Particles
-    id="tsparticles"
+     </div> */}
+      {/* <Particles */}
+      {/* id="tsparticles"
     init={particlesInit}
     loaded={particlesLoaded}
     options={{
@@ -610,15 +607,8 @@ const particlesLoaded = useCallback(async container => {
         "zLayers": 100,
         "emitters": []
     }}
-/>
-
-</div>
-
-
-
-
-
-
+/> */}
+    </div>
 
     // <div>
     //     <div className="page-bg"></div>
@@ -628,9 +618,9 @@ const particlesLoaded = useCallback(async container => {
     //       <div className="particle particle-3"></div>
     //       <div className="particle particle-4"></div>
     //     </div>
-    //     
+    //
     // </div>
-  )
-}
+  );
+};
 
-export default Background
+export default Background;
