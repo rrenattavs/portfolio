@@ -1,7 +1,7 @@
 /* Styles */
 
 h1 {
-    color: #fff;
+    color: #1d1b1b;
     font-family: Monoton;
     -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
     -moz-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -16,7 +16,7 @@ h1 {
     -moz-animation: none;
     animation: none;
   }
-  .page-wrapper{
+  .page--wrapper{
       text-align: center;
       color: #fff;
     text-shadow:
